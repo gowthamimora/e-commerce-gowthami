@@ -1,0 +1,41 @@
+.filterCard{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0.5rem 0.5rem 0.3rem rgba(0, 0, 0, 0.2);
+    background: white;
+
+}
+.sortCard{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0.5rem 0.5rem 0.3rem rgba(0, 0, 0, 0.2);
+    background: white;
+
+}
+.marginTop5Per{
+    margin-top: 5%;
+
+}
+.marginTop1Per{
+    margin-top: 1%;
+}
+.divDisplayRow{
+    display: flex;
+    flex-direction: row;
+}
+.divDisplayColumn{
+    display: flex;
+    flex-direction: column;
+}

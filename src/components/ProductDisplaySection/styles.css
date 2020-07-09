@@ -1,0 +1,38 @@
+.descArticle {
+    padding: 45px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.descArticle:hover {
+    background-color: white;
+    box-shadow: 0.5rem 0.5rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.rowDetails {
+    text-align: left;
+    padding-left: 40px;
+}
+.img {
+    border-radius: 5px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 2%;
+
+
+}
+
+article {
+    flex: 0 0 0%;
+    display: inline-flex;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-bottom: 1%;
+
+}
+.colorBtn{
+    background-color: teal;
+}
