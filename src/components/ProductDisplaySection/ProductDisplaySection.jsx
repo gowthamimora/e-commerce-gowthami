@@ -12,19 +12,13 @@ export default function ProductDisplaySection(props) {
     const renderBook = (book) => {
         return (
             <article key={book.title} className="descArticle">
-                <img className="img" height="100px" width="100px" src={book.imgUrl}/>
+                <img className="img" height="100px" width="100px" src={book.imgUrl} alt="book"/>
                 <Col className="rowDetails">
-                    <Row>
-                        <td width="350px">Title-{book.title}</td>
-                    </Row>
-                    <Row>
-                        <td width="350px">Author-{book.author}</td>
-                    </Row>
-                    <Row>
-                        <td width="350px">Price-{book.price}</td>
-                    </Row>
-                    <Row>
-                        <td width="350px">Pages-{book.pages}</td>
+                    <Row className="book-description">
+                        <span>Title-{book.title}</span>
+                        <span>Author-{book.author}</span>
+                        <span>Price-{book.price}</span>
+                        <span>Pages-{book.pages}</span>
                     </Row>
                     <Row>
                         <Button className="colorBtn">

@@ -1,3 +1,6 @@
 .marginLeft2Per{
     margin-left: 2%;
 }
+button:visited {
+    color: green !important;
+}

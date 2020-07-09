@@ -8,7 +8,7 @@ export default function Sort(props) {
             <div className="divDisplayRow">
                 <h5 className="marginTop1Per">Sort By</h5>
                 <Button
-                    color="secondary"
+                    color="primary"
                     className="marginLeft2Per"
                     onClick={() => props.updateSortOrder(SORT_TYPES.RELEVANCE)}
                 >

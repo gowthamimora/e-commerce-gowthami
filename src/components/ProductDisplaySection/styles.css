@@ -15,14 +15,13 @@
 }
 .img {
     border-radius: 5px;
+    height: 100%;
 }
 section {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
     margin-top: 2%;
-
-
 }
 
 article {
@@ -35,4 +34,10 @@ article {
 }
 .colorBtn{
     background-color: teal;
+}
+
+.book-description {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
 }
