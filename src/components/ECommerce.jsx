@@ -4,7 +4,7 @@ import './styles.css'
 import FilterPage from "./Filter/FilterPage";
 import ProductDisplaySection from "./ProductDisplaySection/ProductDisplaySection";
 
-const BOOKS_API = 'http://localhost:4000/books';
+const BOOKS_API = 'https://jsonplaceholder.typicode.com/gowthamimora/mock-json';
 export default function ECommerce() {
 
     const [selectedAuthors, updateAuthors]=React.useState([]);
