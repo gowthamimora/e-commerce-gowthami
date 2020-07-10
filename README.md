@@ -1,8 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## High overview of scripts to bring the application running
+1. `npm run mock-backend`
+
+2. `npm start`
+
+
 ## Available Scripts
 
-In the project directory, you can run:
+### `npm run mock-backend`
+There is mock-json api created to simulate backend API behaviour. Before starting the application make sure you run mock-server.
+
+Open http://localhost:4000/books to view API.
 
 ### `npm start`
 
